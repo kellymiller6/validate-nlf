@@ -1,6 +1,6 @@
 const Validate = require('git-validate');
 
-Validate.copy('jshintrc', '.jshintrc');
+Validate.copy('eslintrc', '.eslintrc');
 
-Validate.installScript('lint', 'jshint .');
+Validate.installScript('lint', 'eslint .');
 Validate.configureHook('pre-commit', ['lint']);
