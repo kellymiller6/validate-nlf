@@ -1,0 +1,14 @@
+{
+  "name": "validate-nlf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "node install.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "git-validate": "^2.2.2"
+  }
+}
